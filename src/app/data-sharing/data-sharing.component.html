@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h3>{{"Parent to Child" | uppercase }}</h3>
+			<h5>Sharing Data via @Input()</h5>
+			<app-parent-via-input></app-parent-via-input>
+
+		</div>
+		<div class="col-md-6">
+			<h3>{{"Any to Any" | uppercase }}</h3>
+			<h5>Sharing Data via Service</h5>
+			<app-first-sibling-via-service></app-first-sibling-via-service>
+			<app-second-sibling-via-service></app-second-sibling-via-service>
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h3>{{"Child to Parent" | uppercase }}</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+
+			<h5>Sharing Data via @ViewChild</h5>
+			<!-- <app-child-via-viewchild></app-child-via-viewchild> -->
+			<app-parent-via-viewchild></app-parent-via-viewchild>
+		</div>
+		<div class="col-md-6">
+			<h5>Sharing Data via Output() and EventEmitter</h5>
+			<app-parent-via-output-eventemitter></app-parent-via-output-eventemitter>
+
+		</div>
+	</div>
+</div>

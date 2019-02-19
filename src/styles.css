@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.child {
+    background-color: deepskyblue;
+    padding: 5px;
+  }
+  
+  .parent {
+    background-color: aqua;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid blue; 
+    display: inline-flex;
+  }
+  
+  .sibling {
+    background-color: khaki;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid blue; 
+    display: inline-flex;
+  }
